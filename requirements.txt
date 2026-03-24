@@ -1,0 +1,17 @@
+# Core dependencies
+pandas>=2.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+rapidfuzz>=3.6.0
+tqdm>=4.66.0
+
+# Browser automation and Human simulation
+undetected-chromedriver>=3.5.0
+selenium>=4.15.0
+fake-useragent>=1.4.0
+pyautogui>=0.9.54
+certifi>=2023.7.22
+
+# Optional LLM support
+PyYAML>=6.0.0

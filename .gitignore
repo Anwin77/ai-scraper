@@ -1,0 +1,27 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & virtual env
+.env
+venv/
+env/
+
+# Scraped Data & Processing folders
+# (We don't want to push massive lists of company data or proprietary CSVs)
+*.csv
+processed/
+processing/
+queue/
+logs/
+
+# Temporary run scripts we created
+redo_helper.py
+merge_redo.py
+truncate_washington.py
+
+# OS / Editor Files
+.DS_Store
+.vscode/
+.idea/
