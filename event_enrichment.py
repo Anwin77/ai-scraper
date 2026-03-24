@@ -209,6 +209,7 @@ def get_input_file(input_path: str = ""):
     """Use --input path directly, or pick from queue/ → processing/."""
     os.makedirs(PROCESSING_DIR, exist_ok=True)
     os.makedirs(QUEUE_DIR, exist_ok=True)
+    os.makedirs(PROCESSED_DIR, exist_ok=True)
 
     if input_path:
         if os.path.isfile(input_path):
